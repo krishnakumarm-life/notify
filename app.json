@@ -17,7 +17,9 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.krishnamk.notify",
+      "googleServicesFile": "./google-services.json"
     },
     "web": {
       "output": "static",
@@ -32,11 +34,19 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 76
         }
-      ]
+      ],
+      "expo-notifications"
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "bec96ba8-0e9f-4b03-8c2a-b00c34c71e57"
+      }
+    },
+    "owner": "krishnamk"
   }
 }
